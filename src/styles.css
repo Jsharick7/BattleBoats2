@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap");
+html {
+  background: rgb(43, 35, 179);
+  background: linear-gradient(
+    90deg,
+    rgba(43, 35, 179, 1) 0%,
+    rgba(7, 191, 199, 1) 100%
+  );
+}
+span {
+  font-family: "Share Tech Mono", monospace;
+}
+h1 {
+  font-family: "Black Ops One", cursive;
+}
+h2 {
+  font-family: "Share Tech Mono", monospace;
+}
+h3 {
+  font-family: "Share Tech Mono", monospace;
+}
+.btn {
+  font-family: "Share Tech Mono", monospace;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.boat-input {
+  width: 40px;
+}
+
+.enemy-board,
+.playing-board {
+  background-color: rgb(68, 68, 68);
+  color: white;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 7px 7px 3px rgba(0, 0, 0, 0.507);
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.combat-div {
+  display: flex;
+  flex-wrap: wrap;
+}
+.square {
+  background-color: black;
+  width: 70px;
+  min-width: 70px;
+  height: 70px;
+  min-height: 70px;
+  margin-right: -2px;
+  border: 1px solid rgb(42, 216, 42);
+  display: inline-block;
+}
+.highlight {
+  background-color: rgb(42, 216, 42);
+}
+.selected {
+  background-color: rgb(110, 50, 223);
+}
+.no-select {
+  background-color: rgb(241, 0, 0);
+}
+/* .overlay {
+  position: absolute;
+  top: 0;
+} */
+.hit {
+  background-image: url("boom.png");
+  background-size: 70px 70px;
+  background-repeat: no-repeat;
+  background-position: 0 -10px;
+}
+.miss {
+  background-image: url("Missx.png");
+  background-repeat: no-repeat;
+  background-size: 40px 40px;
+  background-position: center;
+}
+.col-labels-row {
+  display: flex;
+}
+.col-label {
+  margin: 0;
+  margin-left: 67.2px;
+  margin-bottom: 10px;
+  width: 0px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  margin-top: -1px;
+}
+.select-row {
+  display: flex;
+  align-items: center;
+  margin-top: -11px;
+}
+.row-label {
+  display: inline-block;
+  min-width: 40px;
+}
+
+.options-row {
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+@media all and (min-width: 1400px) {
+  .App {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+@media all and (min-width: 700px) {
+  .board {
+    padding-left: 100px;
+  }
+}
