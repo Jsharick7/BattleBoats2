@@ -77,13 +77,13 @@ h3 {
   top: 0;
 } */
 .hit {
-  background-image: url("boom.png");
+  background-image: url("https://i.ibb.co/RCYRX0r/clipart1778709.png");
   background-size: 70px 70px;
   background-repeat: no-repeat;
   background-position: 0 -10px;
 }
 .miss {
-  background-image: url("Missx.png");
+  background-image: url("https://i.ibb.co/tzhbCfv/missx.png");
   background-repeat: no-repeat;
   background-size: 40px 40px;
   background-position: center;
